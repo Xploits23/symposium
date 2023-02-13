@@ -7352,7 +7352,7 @@ input[type=color]::placeholder {
   padding: 80px 0;
   margin-bottom: 0 !important;
 }
-@media(min-width:200px){
+@media(max-width:500px){
   .preload-logo img{
   width: 35%;
   }
