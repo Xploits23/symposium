@@ -6,6 +6,12 @@
   font-family: "Neoneon";
   src: url(fonts/Neoneon-3zaD6.otf) format("truetype");
 }
+@media(max-width:1000px){
+  .renny{
+    display:none;
+    
+  }
+}
 .timer-container {
   color: #0987f1;
   margin: 0 auto;
