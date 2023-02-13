@@ -6,12 +6,7 @@
   font-family: "Neoneon";
   src: url(fonts/Neoneon-3zaD6.otf) format("truetype");
 }
-@media(max-width:1000px){
-  .renny{
-    display:none;
-    
-  }
-}
+
 .timer-container {
   color: #0987f1;
   margin: 0 auto;
@@ -7357,15 +7352,24 @@ input[type=color]::placeholder {
   padding: 80px 0;
   margin-bottom: 0 !important;
 }
-@media(max-width:500px){
+@media(min-width:200px){
   .preload-logo img{
   width: 35%;
   }
 }
-@media(max-width:800px){
+@media(min-width:501px){
   .preload-logo img{
   width: 20%;
   }
 }
-
+@media(min-width:800px){
+  .preload-logo img{
+  width: 15%;
+  }
+}
+@media(max-width:1000px){
+  .swiper-wrapper .renny{
+    display: none;
+  }
+}
 /*# sourceMappingURL=app.css.map */
